@@ -1,14 +1,13 @@
-import React from 'react'
-import Header from '../components/Header/Header'
-import Slider from '../components/ShopSlider/Slider.jsx'
-
+import React from "react";
+import Header from "../components/Header/Header";
+import Slider from "../components/ShopSlider/Slider.jsx";
 
 const Home = () => {
   return (
     <div>
-        <Header/>
+      <Header />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

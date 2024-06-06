@@ -2,93 +2,80 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
   margin: 0;
   padding: 0;
   font-family: "Cera Pro";
-  
 }
 
 @font-face {
-  font-family: 'Cera Pro';
-  src: url('CeraPro-Light.eot');
-  src: local('Cera Pro Light'), local('CeraPro-Light'),
-      url('./assets/pro/CeraPro-Light.eot') format('embedded-opentype'),
-      url('./assets/pro/CeraPro-Light.woff2') format('woff2'),
-      url('./assets/pro/CeraPro-Light.woff') format('woff'),
-      url('./assets/pro/CeraPro-Light.ttf') format('truetype');
+  font-family: "Cera Pro";
+  src: url("CeraPro-Light.eot");
+  src: local("Cera Pro Light"), local("CeraPro-Light"),
+    url("./assets/pro/CeraPro-Light.eot") format("embedded-opentype"),
+    url("./assets/pro/CeraPro-Light.woff2") format("woff2"),
+    url("./assets/pro/CeraPro-Light.woff") format("woff"),
+    url("./assets/pro/CeraPro-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
-
-
-
-
-
 @font-face {
-  font-family: 'Cera Pro';
-  src: url('CeraPro-Medium.eot');
-  src: local('Cera Pro Medium'), local('CeraPro-Medium'),
-      url('./assets/pro/CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
-      url('./assets/pro/CeraPro-Medium.woff2') format('woff2'),
-      url('./assets/pro/CeraPro-Medium.woff') format('woff'),
-      url('./assets/pro/CeraPro-Medium.ttf') format('truetype');
+  font-family: "Cera Pro";
+  src: url("CeraPro-Medium.eot");
+  src: local("Cera Pro Medium"), local("CeraPro-Medium"),
+    url("./assets/pro/CeraPro-Medium.eot?#iefix") format("embedded-opentype"),
+    url("./assets/pro/CeraPro-Medium.woff2") format("woff2"),
+    url("./assets/pro/CeraPro-Medium.woff") format("woff"),
+    url("./assets/pro/CeraPro-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
-
-
-
 @font-face {
-  font-family: 'Cera Pro';
-  src: url('CeraPro-Black.eot');
-  src: local('Cera Pro Black'), local('CeraPro-Black'),
-      url('./assets/pro/CeraPro-Black.eot?#iefix') format('embedded-opentype'),
-      url('./assets/pro/CeraPro-Black.woff2') format('woff2'),
-      url('./assets/pro/CeraPro-Black.woff') format('woff'),
-      url('./assets/pro/CeraPro-Black.ttf') format('truetype');
+  font-family: "Cera Pro";
+  src: url("CeraPro-Black.eot");
+  src: local("Cera Pro Black"), local("CeraPro-Black"),
+    url("./assets/pro/CeraPro-Black.eot?#iefix") format("embedded-opentype"),
+    url("./assets/pro/CeraPro-Black.woff2") format("woff2"),
+    url("./assets/pro/CeraPro-Black.woff") format("woff"),
+    url("./assets/pro/CeraPro-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Cera Pro';
-  src: url('CeraPro-Bold.eot');
-  src: local('Cera Pro Bold'), local('CeraPro-Bold'),
-      url('./assets/pro/CeraPro-Bold.eot?#iefix') format('embedded-opentype'),
-      url('./assets/pro/CeraPro-Bold.woff2') format('woff2'),
-      url('./assets/pro/CeraPro-Bold.woff') format('woff'),
-      url('./assets/pro/CeraPro-Bold.ttf') format('truetype');
+  font-family: "Cera Pro";
+  src: url("CeraPro-Bold.eot");
+  src: local("Cera Pro Bold"), local("CeraPro-Bold"),
+    url("./assets/pro/CeraPro-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./assets/pro/CeraPro-Bold.woff2") format("woff2"),
+    url("./assets/pro/CeraPro-Bold.woff") format("woff"),
+    url("./assets/pro/CeraPro-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Cera Pro';
-  src: url('CeraPro-Regular.eot');
-  src: local('Cera Pro Regular'), local('CeraPro-Regular'),
-      url('./assets/pro/CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
-      url('./assets/pro/CeraPro-Regular.woff2') format('woff2'),
-      url('./assets/pro/CeraPro-Regular.woff') format('woff'),
-      url('./assets/pro/CeraPro-Regular.ttf') format('truetype');
+  font-family: "Cera Pro";
+  src: url("CeraPro-Regular.eot");
+  src: local("Cera Pro Regular"), local("CeraPro-Regular"),
+    url("./assets/pro/CeraPro-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./assets/pro/CeraPro-Regular.woff2") format("woff2"),
+    url("./assets/pro/CeraPro-Regular.woff") format("woff"),
+    url("./assets/pro/CeraPro-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Cera Pro';
-  src: url('CeraPro-Thin.eot');
-  src: local('Cera Pro Thin'), local('CeraPro-Thin'),
-      url('./assets/pro/CeraPro-Thin.eot?#iefix') format('embedded-opentype'),
-      url('./assets/pro/CeraPro-Thin.woff2') format('woff2'),
-      url('./assets/pro/CeraPro-Thin.woff') format('woff'),
-      url('./assets/pro/CeraPro-Thin.ttf') format('truetype');
+  font-family: "Cera Pro";
+  src: url("CeraPro-Thin.eot");
+  src: local("Cera Pro Thin"), local("CeraPro-Thin"),
+    url("./assets/pro/CeraPro-Thin.eot?#iefix") format("embedded-opentype"),
+    url("./assets/pro/CeraPro-Thin.woff2") format("woff2"),
+    url("./assets/pro/CeraPro-Thin.woff") format("woff"),
+    url("./assets/pro/CeraPro-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
-
-
-

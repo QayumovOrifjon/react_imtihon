@@ -1,17 +1,14 @@
-import React from 'react'
-import Footer from '../../components/Footer/Footer'
+import React from "react";
+import Footer from "../../components/Footer/Footer";
 
 const PlantCare = () => {
   return (
-    <div className='max-w-custom mx-auto px-4'>
-    <div className='py-5'>
-    PlantCare
-    </div>
-  
-    <Footer/>
-   
-    </div>
-  )
-}
+    <div className="max-w-custom mx-auto px-4">
+      <div className="py-5">PlantCare</div>
 
-export default PlantCare
+      <Footer />
+    </div>
+  );
+};
+
+export default PlantCare;

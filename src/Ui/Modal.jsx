@@ -5,7 +5,7 @@
 // import { useBadgeContext } from '../components/context/Context';
 
 // const style = {
-//   position: 'absolute', 
+//   position: 'absolute',
 //   top: '50%',
 //   left: '50%',
 //   transform: 'translate(-50%, -50%)',
@@ -23,9 +23,9 @@
 //     if (isModalOpen) {
 //       const timer = setTimeout(() => {
 //         handleCloseModal();
-//       }, 3000); // Auto-close after 3 seconds
+//       }, 3000);
 
-//       return () => clearTimeout(timer); // Cleanup the timer on component unmount
+//       return () => clearTimeout(timer);
 //     }
 //   }, [isModalOpen, handleCloseModal]);
 
@@ -39,11 +39,11 @@
 //       onClose={handleCloseModal}
 //       BackdropProps={{
 //         style: {
-//           backgroundColor: 'transparent', // Transparent background
+//           backgroundColor: 'transparent',
 //         },
-//         onClick: handleBackgroundClick, // Close modal if background is clicked
+//         onClick: handleBackgroundClick,
 //       }}
-//       style={{ position: 'absolute' }} // Ensure modal itself is absolutely positioned
+//       style={{ position: 'absolute' }}
 //     >
 //       <Box sx={style}>
 //         <Typography variant="h6" component="h2">
@@ -56,3 +56,5 @@
 // };
 
 // export default BadgeModal;
+
+// bu modal hoomeda cardni bir marta bosgandan (cardga qowganda ) kn yana bossa chiqar edi oldin bosganligini eslatib

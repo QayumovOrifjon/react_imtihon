@@ -37,7 +37,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
               <Route path="/AddCard" element={<AddCard />} />
               <Route path="/Login" element={<Login />} />
               <Route path="/AddCard/Pay" element={<Pay />} />
-              
             </Routes>
           </Router>
         </ClerkProvider>
