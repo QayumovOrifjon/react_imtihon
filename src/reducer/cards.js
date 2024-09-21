@@ -40,6 +40,7 @@ export const funcSlice = createSlice({
         state.warning = true;
       }
     },
+
     increment: (state, action) => {
       const itemIndex = state.carts.findIndex(
         (cartItem) => cartItem.id === action.payload
@@ -48,6 +49,8 @@ export const funcSlice = createSlice({
         state.carts[itemIndex].amount += 1;
       }
     },
+
+    
     decrement: (state, action) => {
       const itemIndex = state.carts.findIndex(
         (cartItem) => cartItem.id === action.payload

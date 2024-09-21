@@ -1,4 +1,27 @@
+
+import img from '../../../public/images/img.jpg'
+import img20 from '../../../public/images/img17.png'
+import img2 from '../../../public/images/img2.png'
+import img3 from '../../../public/images/img3.png'
+import img4 from '../../../public/images/img4.png'
+import img5 from '../../../public/images/img5.png'
+import img6 from '../../../public/images/img6.png'
+import img7 from '../../../public/images/img7.png'
+import img8 from '../../../public/images/img8.png'
+import img9 from '../../../public/images/img9.png'
+import img10 from '../../../public/images/img10.png'
+import img11 from '../../../public/images/img11.png'
+import img12 from '../../../public/images/img12.png'
+import img13 from '../../../public/images/img13.png'
+import img14 from '../../../public/images/img14.png'
+import img15 from '../../../public/images/img15.png'
+import img16 from '../../../public/images/img16.png'
+import img17 from '../../../public/images/img17.png'
+import img18 from '../../../public/images/img18.png'
+import img19 from '../../../public/images/img19.png'
+
 export const Data = [
+  
   {
     id: 77116,
     common_name: "Evergreen oak",
@@ -12,7 +35,7 @@ export const Data = [
     family_common_name: null,
     genus_id: 3519,
     price: 45,
-    image_url: "https://images.uzum.uz/cokesb1lehjjh9gilhs0/original.jpg",
+    image_url: img,
     synonyms: [
       "Quercus ilex var. oleoides",
       "Quercus ilex subvar. rotundifolia",
@@ -72,7 +95,7 @@ export const Data = [
     family_common_name: null,
     genus_id: 5550,
     price: 45,
-    image_url: "https://images.uzum.uz/ch5mb9d01ighkhg8ni9g/original.jpg",
+    image_url: img2,
     synonyms: [
       "Urtica dioica var. vulgaris",
       "Urtica dioica var. ramosa",
@@ -100,7 +123,7 @@ export const Data = [
     genus_id: 10915,
     price: 55,
 
-    image_url: "https://images.uzum.uz/cn5ra8jifoubkc6rpao0/original.jpg",
+    image_url: img3,
     synonyms: [
       "Bromus glomeratus",
       "Koeleria dactylis",
@@ -130,7 +153,7 @@ export const Data = [
     family_common_name: null,
     genus_id: 6597,
     price: 40,
-    image_url: "https://images.uzum.uz/cmj5ia3ifoubkc6o95e0/original.jpg",
+    image_url: img4,
     synonyms: [
       "Plantago intermedia",
       "Plantago lanceolata var. communis",
@@ -246,7 +269,7 @@ export const Data = [
     genus_id: 250,
     price: 95,
     image_url:
-      "https://images.uzum.uz/ci91cbr6edfostihdl50/t_product_240_high.jpg",
+      img5,
     synonyms: [
       "Santolina millefolium",
       "Achillea millefolium var. nobilior",
@@ -277,7 +300,7 @@ export const Data = [
     family_common_name: null,
     genus_id: 1872,
     price: 87,
-    image_url: "https://images.uzum.uz/cmoaab125ku8ad8ih9ag/original.jpg",
+    image_url: img6,
     synonyms: ["Trifolium repens var. maculatum", "Amoria repens"],
     genus: "Trifolium",
     family: "Fabaceae",
@@ -300,7 +323,7 @@ export const Data = [
     family_common_name: null,
     genus_id: 11051,
     price: 33,
-    image_url: "https://images.uzum.uz/cj50bo75d7kom1tl46s0/original.jpg",
+    image_url: img7,
     synonyms: [
       "Holcus lanatus var. scaber",
       "Holcus lanatus subsp. argenteus",
@@ -361,7 +384,7 @@ export const Data = [
     family_common_name: null,
     genus_id: 6311,
     price: 35,
-    image_url: "https://images.uzum.uz/cnbl9chs99ouqbfvkg5g/original.jpg",
+    image_url: img8,
     synonyms: [
       "Ranunculus tomentosus",
       "Ranunculus repens var. prostratus",
@@ -428,7 +451,7 @@ export const Data = [
     genus_id: 3519,
     price: 115,
     image_url:
-      "https://images.uzum.uz/ckbe44kjvf2kdov69990/t_product_240_high.jpg",
+      img9,
     synonyms: [
       "Quercus robur var. vulgaris",
       "Quercus robur subsp. eurobur",
@@ -458,7 +481,7 @@ export const Data = [
     genus_id: 10999,
     price: 120,
     image_url:
-      "https://images.uzum.uz/ckbe40kjvf2kdov69970/t_product_240_high.jpg",
+      img10,
     synonyms: [
       "Festuca rubra var. hirta",
       "Festuca rubra subsp. glaucodea",
@@ -688,7 +711,7 @@ export const Data = [
     genus_id: 10598,
     price: 145,
     image_url:
-      "https://images.uzum.uz/ckbe3rkvutv73otr9ncg/t_product_240_high.jpg",
+    img11,
     synonyms: ["Fraxinus excelsior var. communis"],
     genus: "Fraxinus",
     family: "Oleaceae",
@@ -711,7 +734,7 @@ export const Data = [
     family_common_name: "Aster family",
     genus_id: 31,
     price: 15,
-    image_url: "https://images.uzum.uz/ckq317kvutv6ra7e77n0/original.jpg",
+    image_url: img12,
     synonyms: [
       "Cnicus arvensis",
       "Breea arvensis",
@@ -740,7 +763,7 @@ export const Data = [
     family_common_name: null,
     genus_id: 1872,
     price: 48,
-    image_url: "https://images.uzum.uz/cg6p55vhj8j9g699mr9g/original.jpg",
+    image_url: img13,
     synonyms: ["Lagopus pratensis"],
     genus: "Trifolium",
     family: "Fabaceae",
@@ -763,7 +786,7 @@ export const Data = [
     family_common_name: null,
     genus_id: 11983,
     price: 93,
-    image_url: "https://images.uzum.uz/cmj5hk9s99ouqbfqri8g/original.jpg",
+    image_url: img14,
     synonyms: [
       "Fagus sylvatica var. atropunicea",
       "Fagus sylvestris",
@@ -860,7 +883,7 @@ export const Data = [
     family_common_name: null,
     genus_id: 6140,
     price: 29,
-    image_url: "https://images.uzum.uz/col2cq1lehjjh9gip8hg/original.jpg",
+    image_url: img15,
     synonyms: [
       "Juncus laevis var. effusus",
       "Juncus effusus var. oblongicarpus",
@@ -890,7 +913,7 @@ export const Data = [
     family_common_name: null,
     genus_id: 6311,
     price: 65,
-    image_url: "https://images.uzum.uz/cokbssv0sttt9lm4td00/original.jpg",
+    image_url: img16,
     synonyms: ["Ranunculastrum acre"],
     genus: "Ranunculus",
     family: "Ranunculaceae",
@@ -913,7 +936,7 @@ export const Data = [
     family_common_name: "Rose family",
     genus_id: 12152,
     price: 75,
-    image_url: "https://images.uzum.uz/cojktbjsc839i59tkqig/original.jpg",
+    image_url: img17,
     synonyms: [
       "Crataegus parvifolia",
       "Crataegus oxyacantha var. laciniata",
@@ -1278,7 +1301,7 @@ export const Data = [
     family_common_name: null,
     genus_id: 5298,
     price: 24,
-    image_url: "https://images.uzum.uz/cod4sra1om4pepdvoqc0/original.jpg",
+    image_url: img18,
     synonyms: [
       "Rumex acetosa var. pratensis",
       "Rumex acidus",
@@ -1306,7 +1329,7 @@ export const Data = [
     family_common_name: null,
     genus_id: 8012,
     price: 88,
-    image_url: "https://images.uzum.uz/cnu1ihn2u18gghckuoig/original.jpg",
+    image_url: img19,
     synonyms: [
       "Calluna vulgaris var. patula",
       "Calluna vulgaris var. hammondii",
@@ -1434,7 +1457,7 @@ export const Data = [
     family_common_name: "Rose family",
     genus_id: 12148,
     price: 105,
-    image_url: "https://images.uzum.uz/clq3mopiac3an8rlsv50/original.jpg",
+    image_url: img20,
     synonyms: [
       "Ulmaria ulmaria",
       "Thecanisia ulmaria",

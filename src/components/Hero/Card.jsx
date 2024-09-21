@@ -21,6 +21,7 @@ const Card = ({ item }) => {
 
   const { handleIncrementBadge, isModalOpen, handleCloseModal } =
     useBadgeContext();
+
   const handleClick = () => {
     handleIncrementBadge(item.id);
   };

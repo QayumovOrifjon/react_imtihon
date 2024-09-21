@@ -123,7 +123,7 @@ const AddCard = () => {
                       </span>
                       <span className="text-[20px]">{item.amount}</span>
                       <span
-                        onClick={() => dispatch(increment(item.id))}
+                        onClick={() => dispatch(increment(card.id))}
                         className="text-white cursor-pointer hover:opacity-70 bg-[#46A358] px-[13px] text-[18px] py-[6px] rounded-full font-bold"
                       >
                         +
